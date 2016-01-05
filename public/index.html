@@ -1,10 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>G'Day World</title>
-</head>
-<body>
-    <h1>G'Day World</h1>
-</body>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.min.css">
+        <script src="/js/script.min.js"></script>
+    </head>
+    <body>
+        <div class="heading">
+            <img src="img/tux.png">
+            <h1><span id='release'></span> Deployed At <span id='deployDate'></span> to <span id='env'></span></h1>
+            <h2><span id='projectVariable'></span> </h2>
+        </div>
+        <div class="body">
+            <h4>Server Details</h4>
+            <ul><li>
+                <span>Machine: </span>
+                <span id="machine_name"></span>
+            </li>
+                <li>
+                    <span>Platform: </span>
+                    <span id="os_platform"></span>
+                </li>
+                <li>
+                    <span>PID: </span>
+                    <span id="os_pid"></span>
+                </li>
+            </ul>
+        </div>
+    </body>
 </html>
