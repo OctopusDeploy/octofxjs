@@ -5,6 +5,7 @@
   "author": "Octopus Deploy <support@octopus.com> (http://octopus.com/)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "extend": "^3.0.0"
   }
 }
