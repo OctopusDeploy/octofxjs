@@ -3,5 +3,8 @@
   "version": "0.0.1",
   "description": "A sample project to demonstrate packaging and pushing Node.js projects",
   "author": "Octopus Deploy <support@octopus.com> (http://octopus.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
