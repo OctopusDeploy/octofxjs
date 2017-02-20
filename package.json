@@ -6,6 +6,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.13.3",
-    "extend": "^3.0.0"
+    "extend": "^3.0.0",
+    "webpack": "1.14.0",
+    "octo-webpack-plugin": "file:../octo-webpack-plugin"
   }
 }
