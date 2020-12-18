@@ -24,9 +24,9 @@ gulp.task('scripts', function() {
       .pipe(gulp.dest('./public/js/'));
 });
 
-gulp.task('build', ['less', 'scripts']);
+gulp.task('build', gulp.parallel('less', 'scripts'));
 
-gulp.task('default', ['less', 'scripts'], function() {
+gulp.task('default', gulp.parallel('less', 'scripts'), function() {
   gulp.watch('./src/less/**/*.less', ['less']);
   gulp.watch(['./src/js/vendor/**/*.js', './src/js/app/**/*.js'], ['scripts']);
 });
